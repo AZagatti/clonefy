@@ -11,7 +11,7 @@ function App() {
     <DndProvider backend={HTML5Backend}>
       <Header />
       <Board />
-      
+
       <GlobalStyle />
     </DndProvider>
   );
