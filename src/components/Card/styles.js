@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
-  background: #FFF;
+  background: #fff;
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 15px;
@@ -10,13 +10,13 @@ export const Container = styled.div`
   border-top: 20px solid rgba(230, 236, 245, 0.4);
   cursor: grab;
 
-  header{
+  header {
     position: absolute;
     top: -22px;
     left: 15px;
   }
 
-  p{
+  p {
     font-weight: 500;
     line-height: 20px;
   }
@@ -34,5 +34,5 @@ export const Label = styled.span`
   height: 10px;
   border-radius: 2px;
   display: inline-block;
-  background: ${props => props.color};
+  background: ${(props) => props.color};
 `;
